@@ -1,0 +1,44 @@
+
+body {
+    background-color: $background-color;
+}
+
+section.style1 {
+    background-color: $style1-color;
+}
+
+section.style2 {
+    background-color: $style2-color;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+// extra small devices
+@media (max-width: 543px) {
+    .container {
+        margin-left: $sm;
+        margin-right: $sm;
+    }
+}
+// small devices
+@media (min-width: 544px) and (max-width: 767px) {
+    .container {
+        margin-left: $md;
+        margin-right: $md;
+    }
+}
+// medium devices
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+// large devices
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+// extra large devices
+@media (min-width: 1200px) {
+
+}
