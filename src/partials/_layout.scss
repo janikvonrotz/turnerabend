@@ -18,6 +18,27 @@ section.style6 {
 }
 
 section header {
-    padding-top: $md;
+    padding-top: $xxl;
 }
 
+.jarallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.jarallax.image1 {
+    background-image: url(./assets/image1.jpg)
+}
+.jarallax.image2 {
+    background-image: url(./assets/image2.jpg)
+}
+.jarallax.image3 {
+    background-image: url(./assets/image3.jpg)
+}
+.jarallax.image4 {
+    background-image: url(./assets/image4.png)
+}
+.jarallax.image5 {
+    background-image: url(./assets/image5.jpg)
+}

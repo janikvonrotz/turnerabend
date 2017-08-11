@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat');
 
 h1 {
-    font-size: 36px;
+    font-size: $lg;
     font-family: 'Montserrat', sans-serif;
     color: $header-color;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: $md;
     font-family: 'Montserrat', sans-serif;
     color: $header-color;
 }
@@ -15,4 +14,28 @@ h2 {
 p {
     font-family: 'Merriweather Sans', sans-serif;
     color: $text-color;
+    font-size: $sm;
+}
+
+nav a {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: $text-color;
+    font-size: $xs;
+    text-decoration: none;
+}
+
+nav a.active, a:hover {
+    border-bottom: 2px solid $text-color;
+}
+
+article li {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: $text-color;
+    font-size: $sm;
+}
+
+footer p {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: $footertext-color;
+    font-size: $xs;
 }

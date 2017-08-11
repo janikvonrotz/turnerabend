@@ -1,25 +1,47 @@
 @import url(../node_modules/animate.css/animate.css);
 @import url(../node_modules/normalize.css/normalize.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat");
 h1 {
-  font-size: 36px;
+  font-size: 50px;
   font-family: 'Montserrat', sans-serif;
   color: #fff; }
 
 h2 {
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'Montserrat', sans-serif;
   color: #fff; }
 
 p {
   font-family: 'Merriweather Sans', sans-serif;
-  color: #fff; }
+  color: #fff;
+  font-size: 25px; }
+
+nav a {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none; }
+
+nav a.active, a:hover {
+  border-bottom: 2px solid #fff; }
+
+article li {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #fff;
+  font-size: 25px; }
+
+footer p {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #000;
+  font-size: 15px; }
 
 body {
-  background-color: #000; }
+  background-color: #fff; }
 
 section {
   height: 100vh; }
+
+section.jarallax {
+  height: 50vh; }
 
 section article {
   margin: 0 auto;
@@ -43,29 +65,32 @@ nav {
   background: #fff;
   z-index: 9999; }
 
-nav a {
+nav ul {
+  margin: 0; }
+
+nav li {
   color: #fff;
   display: inline-block;
   padding: 1rem;
   float: left;
   font-weight: bold; }
 
-nav a:nth-child(3n + 1), main section:nth-child(3n + 1) {
+nav li:nth-child(3n + 1) {
   background: #000; }
 
-nav a:nth-child(3n + 2), main section:nth-child(3n + 2) {
+nav li:nth-child(3n + 2) {
   background: #05668D; }
 
-nav a:nth-child(3n + 3), main section:nth-child(3n + 3) {
+nav li:nth-child(3n + 3) {
   background: #028090; }
 
-nav a:nth-child(3n + 4), main section:nth-child(3n + 4) {
+nav li:nth-child(3n + 4) {
   background: #00A896; }
 
-nav a:nth-child(3n + 5), main section:nth-child(3n + 5) {
+nav li:nth-child(3n + 5) {
   background: #02C39A; }
 
-nav a:nth-child(3n + 6), main section:nth-child(3n + 6) {
+nav li:nth-child(3n + 6) {
   background: #F0F3BD; }
 
 .margin-box-xxs {
@@ -191,4 +216,24 @@ section.style6 {
   background-color: #F0F3BD; }
 
 section header {
-  padding-top: 35px; }
+  padding-top: 90px; }
+
+.jarallax {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+
+.jarallax.image1 {
+  background-image: url(./assets/image1.jpg); }
+
+.jarallax.image2 {
+  background-image: url(./assets/image2.jpg); }
+
+.jarallax.image3 {
+  background-image: url(./assets/image3.jpg); }
+
+.jarallax.image4 {
+  background-image: url(./assets/image4.png); }
+
+.jarallax.image5 {
+  background-image: url(./assets/image5.jpg); }

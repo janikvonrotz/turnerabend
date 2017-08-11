@@ -19,7 +19,6 @@
   "dependencies": {
     "animate.css": "^3.5.2",
     "normalize.css": "^7.0.0",
-    "smooth-scroll": "github:cferdinandi/smooth-scroll",
-    "withinviewport": "^2.0.0"
+    "smooth-scroll": "github:cferdinandi/smooth-scroll"
   }
 }

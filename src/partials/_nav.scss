@@ -7,29 +7,33 @@ nav {
     z-index: 9999; 
 }
 
-nav a { 
+nav ul {
+    margin: 0;
+}
+
+nav li { 
     color: $navtext-color; 
     display: inline-block; 
     padding: 1rem; 
-    float: left; 
+    float: left;
     font-weight: bold; 
 }
 
-nav a:nth-child( 3n + 1), main section:nth-child( 3n + 1) { 
+nav li:nth-child( 3n + 1) { 
     background: $style1-color; 
 }
-nav a:nth-child( 3n + 2), main section:nth-child( 3n + 2) { 
+nav li:nth-child( 3n + 2) { 
     background: $style2-color; 
 }
-nav a:nth-child( 3n + 3), main section:nth-child( 3n + 3) { 
+nav li:nth-child( 3n + 3) { 
     background: $style3-color; 
 }
-nav a:nth-child( 3n + 4), main section:nth-child( 3n + 4) {
+nav li:nth-child( 3n + 4) {
     background: $style4-color; 
 }
-nav a:nth-child( 3n + 5), main section:nth-child( 3n + 5) {
+nav li:nth-child( 3n + 5) {
     background: $style5-color; 
 }
-nav a:nth-child( 3n + 6), main section:nth-child( 3n + 6) {
+nav li:nth-child( 3n + 6) {
     background: $style6-color; 
 }

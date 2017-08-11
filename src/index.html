@@ -8,12 +8,14 @@
 <body>
     <header>
         <nav data-scroll-header>
-            <a data-scroll href="#section1">Home</a>
-            <a data-scroll href="#section2">Programm</a>
-            <a data-scroll href="#section3">Tickets</a>
-            <a data-scroll href="#section4">Anfahrt</a>
-            <a data-scroll href="#section5">Über</a>
-            <a data-scroll href="#section6">Kontakt</a>
+            <ul>
+                <li><a data-scroll href="#section1">Home</a></li>
+                <li><a data-scroll href="#section2">Programm</a></li>
+                <li><a data-scroll href="#section3">Tickets</a></li>
+                <li><a data-scroll href="#section4">Anfahrt</a></li>
+                <li><a data-scroll href="#section5">Über</a></li>
+                <li><a data-scroll href="#section6">Kontakt</a></li>
+            </ul>
         </nav>
     <header>
 
@@ -27,7 +29,9 @@
         </article>
     </section>
 
-    <section class="style2" id="section2">
+    <section data-jarallax='{"speed": 0.2}' class="jarallax image1"></section>
+
+    <section class="style2 animated" id="section2">
         <article>
             <header>
                 <h1>Programm</h1>
@@ -41,6 +45,8 @@
         </article>
     </section>
 
+    <section data-jarallax='{"speed": 0.2}' class="jarallax image2"></section>
+
     <section class="style3" id="section3">
         <article>
             <header>
@@ -50,6 +56,9 @@
             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p> 
         </article>
     </section>
+
+    <section data-jarallax='{"speed": 0.2}' class="jarallax image3"></section>
+
 
     <section class="style4" id="section4">
         <article>
@@ -61,6 +70,8 @@
         </article>
     </section>
 
+    <section data-jarallax='{"speed": 0.2}' class="jarallax image4"></section>
+
     <section class="style5" id="section5">
         <article>
             <header>
@@ -71,7 +82,9 @@
         </article>
     </section>
 
-        <section class="style6" id="section6">
+    <section data-jarallax='{"speed": 0.2}' class="jarallax image5"></section>
+
+    <section class="style6" id="section6">
         <article>
             <header>
                 <h1>Kontakt</h1>
@@ -124,9 +137,10 @@
     </footer>
 
     <!--build:js main.min.js -->
-    <script src="../node_modules/smooth-scroll/dist/js/smooth-scroll.js"></script>
-    <script src="main.js"></script>
-    <script src="../node_modules/jarallax/jarallax/jarallax.js"
+     <script src="../node_modules/smooth-scroll/dist/js/smooth-scroll.js"></script>
+     <script src="main.js"></script> 
+     <script src="inView.js"></script> 
+    <script src="../node_modules/jarallax/jarallax/jarallax.js"></script> 
     <!-- endbuild -->
 </body>
 </html>

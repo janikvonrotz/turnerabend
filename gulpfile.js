@@ -12,10 +12,6 @@ gulp.task('browserSync', function() {
   })
 })
 
-// gulp.task('reloadBS', function () {
-//     browserSync.reload;
-// })
-
 // extract and bundle js files
 gulp.task('useref', function(){
   return gulp.src('src/**/*.html')
@@ -39,7 +35,7 @@ gulp.task('sass', function(){
 // start browser sync and watch directories
 gulp.task('watch', ['browserSync'], function(){
     gulp.watch('src/**/*.scss', ['sass'])
-    gulp.watch('src/**/*.html', browserSync.reload); 
+    gulp.watch('src/**/*.html', ['useref']); 
     gulp.watch('src/**/*.js', ['useref']); 
 })
 
