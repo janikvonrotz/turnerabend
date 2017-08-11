@@ -3,29 +3,25 @@ body {
     background-color: $background-color;
 }
 
-section.style1 {
-    background-color: $style1-color;
+section {
+    height: 100vh;
 }
 
-section.style2 {
-    background-color: $style2-color;
-}
-
-.container {
+section article {
     margin: 0 auto;
     max-width: 800px;
 }
 
 // extra small devices
 @media (max-width: 543px) {
-    .container {
+    section article  {
         margin-left: $sm;
         margin-right: $sm;
     }
 }
 // small devices
 @media (min-width: 544px) and (max-width: 767px) {
-    .container {
+    section article  {
         margin-left: $md;
         margin-right: $md;
     }

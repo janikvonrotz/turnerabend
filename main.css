@@ -11,32 +11,62 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   color: #fff; }
 
-section p {
+p {
   font-family: 'Merriweather Sans', sans-serif;
   color: #fff; }
 
 body {
   background-color: #000; }
 
-section.style1 {
-  background-color: #5e42a6; }
+section {
+  height: 100vh; }
 
-section.style2 {
-  background-color: #b74e91; }
-
-.container {
+section article {
   margin: 0 auto;
   max-width: 800px; }
 
 @media (max-width: 543px) {
-  .container {
+  section article {
     margin-left: 25px;
     margin-right: 25px; } }
 
 @media (min-width: 544px) and (max-width: 767px) {
-  .container {
+  section article {
     margin-left: 35px;
     margin-right: 35px; } }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 9999; }
+
+nav a {
+  color: #fff;
+  display: inline-block;
+  padding: 1rem;
+  float: left;
+  font-weight: bold; }
+
+nav a:nth-child(3n + 1), main section:nth-child(3n + 1) {
+  background: #000; }
+
+nav a:nth-child(3n + 2), main section:nth-child(3n + 2) {
+  background: #05668D; }
+
+nav a:nth-child(3n + 3), main section:nth-child(3n + 3) {
+  background: #028090; }
+
+nav a:nth-child(3n + 4), main section:nth-child(3n + 4) {
+  background: #00A896; }
+
+nav a:nth-child(3n + 5), main section:nth-child(3n + 5) {
+  background: #02C39A; }
+
+nav a:nth-child(3n + 6), main section:nth-child(3n + 6) {
+  background: #F0F3BD; }
 
 .margin-box-xxs {
   margin: 5px; }
@@ -141,3 +171,24 @@ section.style2 {
 
 .padding-top-xxl {
   padding-top: 90px; }
+
+section.style1 {
+  background-color: #000; }
+
+section.style2 {
+  background-color: #05668D; }
+
+section.style3 {
+  background-color: #028090; }
+
+section.style4 {
+  background-color: #00A896; }
+
+section.style5 {
+  background-color: #02C39A; }
+
+section.style6 {
+  background-color: #F0F3BD; }
+
+section header {
+  padding-top: 35px; }
