@@ -7,7 +7,7 @@ var useref = require('gulp-useref');
 gulp.task('browserSync', function() {
   browserSync.init({
     server: {
-      baseDir: './'
+      baseDir: './dist'
     },
   })
 })
@@ -16,7 +16,7 @@ gulp.task('browserSync', function() {
 gulp.task('useref', function(){
   return gulp.src('src/**/*.html')
     .pipe(useref())
-    .pipe(gulp.dest('./'))
+    .pipe(gulp.dest('./dist'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -26,7 +26,7 @@ gulp.task('useref', function(){
 gulp.task('sass', function(){
   return gulp.src('src/main.scss')
     .pipe(sass())
-    .pipe(gulp.dest('./'))
+    .pipe(gulp.dest('./dist'))
     .pipe(browserSync.reload({
       stream: true
     }))

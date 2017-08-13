@@ -18,8 +18,7 @@ p {
 nav a {
   font-family: 'Merriweather Sans', sans-serif;
   color: #fff;
-  font-size: 15px;
-  text-decoration: none; }
+  font-size: 15px; }
 
 nav a.active, a:hover {
   border-bottom: 2px solid #fff; }
@@ -33,6 +32,13 @@ footer p {
   font-family: 'Merriweather Sans', sans-serif;
   color: #000;
   font-size: 15px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+  text-decoration: none; }
 
 body {
   background-color: #fff; }

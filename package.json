@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "animate.css": "^3.5.2",
-    "normalize.css": "^7.0.0",
-    "smooth-scroll": "github:cferdinandi/smooth-scroll"
+    "in-view": "^0.6.1",
+    "normalize.css": "^7.0.0"
   }
 }
