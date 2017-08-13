@@ -1,4 +1,18 @@
 
+# CI
+
+image: alpine:latest
+
+pages:
+  stage: deploy
+  script:
+  - echo 'Nothing to do...'
+  artifacts:
+    paths:
+    - dist
+  only:
+  - master
+
 # Notes
 
 https://github.com/nk-o/jarallax

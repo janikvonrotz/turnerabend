@@ -16,7 +16,7 @@ gulp.task('browserSync', function() {
 gulp.task('useref', function(){
   return gulp.src('src/**/*.html')
     .pipe(useref())
-    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest('./'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -26,7 +26,7 @@ gulp.task('useref', function(){
 gulp.task('sass', function(){
   return gulp.src('src/main.scss')
     .pipe(sass())
-    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest('./'))
     .pipe(browserSync.reload({
       stream: true
     }))
