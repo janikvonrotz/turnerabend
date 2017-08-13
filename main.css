@@ -72,7 +72,9 @@ nav {
   z-index: 9999; }
 
 nav ul {
-  margin: 0; }
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden; }
 
 nav li {
   color: #fff;
