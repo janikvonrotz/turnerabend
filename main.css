@@ -2,42 +2,73 @@
 @import url(../node_modules/normalize.css/normalize.css);
 h1 {
   font-size: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff; }
 
 h2 {
   font-size: 35px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff; }
 
 p {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   color: #fff;
   font-size: 25px; }
+
+p a {
+  color: #fff;
+  text-decoration: none; }
+
+small {
+  font-family: "Merriweather Sans", sans-serif;
+  color: #fff;
+  font-size: 15px; }
+
+small a {
+  color: #fff;
+  text-decoration: none; }
 
 nav a {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   color: #fff;
   font-size: 15px; }
 
-nav a.active, a:hover {
-  border-bottom: 2px solid #fff; }
-
 article li {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   color: #fff;
   font-size: 25px; }
 
-footer p {
-  font-family: 'Merriweather Sans', sans-serif;
-  color: #000;
-  font-size: 15px; }
+a.active, a:hover {
+  border-bottom: 2px solid #fff; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+.align-center {
+  text-align: center; }
+
+@media (max-width: 543px) {
+  h1 {
+    font-size: 35px; }
+  h2 {
+    font-size: 25px; }
+  p, article li, footer p {
+    font-size: 15px; } }
+
+@media (min-width: 544px) and (max-width: 767px) {
+  h1 {
+    font-size: 35px; }
+  h2 {
+    font-size: 25px; }
+  p, article li, footer p {
+    font-size: 15px; } }
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: arial;
   text-decoration: none; }
 
 body {
@@ -62,6 +93,11 @@ section article {
   section article {
     margin-left: 35px;
     margin-right: 35px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  section article {
+    margin-left: 50px;
+    margin-right: 50px; } }
 
 nav {
   position: fixed;
@@ -184,6 +220,9 @@ nav li:nth-child(3n + 6) {
   padding-top: 80px;
   padding-bottom: 80px; }
 
+.padding-box-xs {
+  padding: 15px; }
+
 .padding-box-sm {
   padding: 25px; }
 
@@ -226,6 +265,9 @@ section.style6 {
 section header {
   padding-top: 90px; }
 
+footer {
+  background-color: red; }
+
 .jarallax {
   background-size: cover;
   background-repeat: no-repeat;
@@ -245,3 +287,20 @@ section header {
 
 .jarallax.image5 {
   background-image: url(./assets/image5.jpg); }
+
+.button {
+  display: inline-block;
+  font-family: "Merriweather Sans", sans-serif, sans-serif;
+  font-size: 25px;
+  color: #fff;
+  background-color: black;
+  border: 4px solid transparent;
+  padding: 12.5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-decoration: none; }
+
+.button:hover {
+  color: black;
+  background-color: #fff;
+  border: 4px solid black; }

@@ -21,6 +21,10 @@ section header {
     padding-top: $xxl;
 }
 
+footer {
+    background-color: $footerbackground-color;
+}
+
 .jarallax {
     background-size: cover;
     background-repeat: no-repeat;
