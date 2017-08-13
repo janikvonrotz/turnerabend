@@ -1,70 +1,22 @@
+# Turnerabend Page
 
-# CI
+Staging: [https://janikvonrotz.gitlab.io/turnerabend](https://janikvonrotz.gitlab.io/turnerabend)
+ [![build status](https://gitlab.com/janikvonrotz/turnerabend/badges/master/build.svg)](https://gitlab.com/janikvonrotz/turnerabend/commits/master)
 
-image: alpine:latest
+## Install
 
-pages:
-  stage: deploy
-  script:
-  - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - dist
-  only:
-  - master
+Install project dependencies:
 
-# Notes
+    npm install
+    npm install gulp -g
 
-https://github.com/nk-o/jarallax
- 
-https://github.com/cferdinandi/smooth-scroll
+Build the project with gulp:
 
-Demo and Inspiration: https://jsfiddle.net/oneeezy/rrfwogxm/
+    npm run build
 
-Use 100vh for heigh!
+Or run the dev server:
 
-Navigation like https://www.panter.ch/
-
-http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section
-
-https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
-
-https://www.webpagefx.com/web-design/html-ipsum/
- 
-(https://www.tengio.com/blog/nunjucks-templates-with-gulp/)
- 
-Home – Was ist der Turnerabend? #section1
- 
-Logo mit Hintergrund Bild section1.png
- 
-Programm – Was erwartet den Besucher? #section2
- 
-Paralax Bild section2.png
- 
-Tickets – Wo bekomme ich Tickets? #section3
- 
-Paralax Bild section4.png
- 
-Anfahrt – Wie gelange ich dort hin? #section4
- 
-Karte
- 
-Über – Wer organsisiert das? #section5
- 
-Paralax Bild section5.png
- 
-Kontakt – Wie kann ich kontaktieren? #section6
- 
-Typeform
- 
-Footer
- 
- 
-CSS:
- 
-Style1
-…
-Style6
+    npm run watch
 
 ## Media query classes
 
@@ -93,5 +45,30 @@ Style6
 
 # Source
 
-https://css-tricks.com/gulp-for-beginners/
-http://nicolasgallagher.com/about-normalize-css/
+Setup gulp  
+[https://css-tricks.com/gulp-for-beginners/](https://css-tricks.com/gulp-for-beginners/)
+
+Normalize CSS  
+[http://nicolasgallagher.com/about-normalize-css/](http://nicolasgallagher.com/about-normalize-css/)
+
+Parallax scrollling  
+[https://github.com/nk-o/jarallax](https://github.com/nk-o/jarallax)
+
+Smooth scrolling and jump links  
+[https://github.com/cferdinandi/smooth-scroll](https://github.com/cferdinandi/smooth-scroll)
+
+Inspiration  
+[https://jsfiddle.net/oneeezy/rrfwogxm/](https://jsfiddle.net/oneeezy/rrfwogxm/)
+
+Inspiration for mobile navigation  
+[https://www.panter.ch/](https://www.panter.ch/)
+
+HTML5 semantics  [http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section](http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section)
+
+Color palette  
+[https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
+](https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
+)
+
+Lorem Ipsum placeholder  
+[https://www.webpagefx.com/web-design/html-ipsum/](https://www.webpagefx.com/web-design/html-ipsum/)
