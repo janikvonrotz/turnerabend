@@ -3,7 +3,7 @@ h1 {
     font-size: 50px;
     font-family: $header-font;
     color: $header-color;
-    margin-top: 0.5em;
+    margin-top: 0.75em;
     margin-bottom: 0.75em;
     font-weight: $fontweight-normal;
 }
@@ -50,6 +50,7 @@ nav a {
 }
 
 article ul {
+    padding-left: 25px;
     list-style: none; 
 }
 

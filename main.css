@@ -49,13 +49,14 @@ footer {
 
 img.logo {
   max-width: 500px;
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 h1, h2 {
   font-size: 50px;
   font-family: "Montserrat", sans-serif;
   color: #fff;
-  margin-top: 0.5em;
+  margin-top: 0.75em;
   margin-bottom: 0.75em;
   font-weight: 400; }
 
@@ -88,6 +89,7 @@ nav a {
   font-weight: bold; }
 
 article ul {
+  padding-left: 25px;
   list-style: none; }
 
 article li:before {
@@ -140,22 +142,22 @@ section {
 section.jarallax {
   height: 50vh; }
 
-section article {
+section article, nav {
   margin: 0 auto;
   max-width: 800px; }
 
 @media (max-width: 543px) {
-  section article {
+  section article, nav {
     margin-left: 15px;
     margin-right: 15px; } }
 
 @media (min-width: 544px) and (max-width: 767px) {
-  section article {
+  section article, nav {
     margin-left: 25px;
     margin-right: 25px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  section article {
+  section article, nav {
     margin-left: 50px;
     margin-right: 50px; } }
 
@@ -168,10 +170,7 @@ body > header {
   background-color: #000; }
 
 nav {
-  max-width: 800px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto; }
+  position: relative; }
 
 nav ul {
   display: flex;
@@ -236,4 +235,4 @@ form textarea, form input {
   border: 4px solid #fff; }
 
 footer {
-  padding: 15px; }
+  padding: 5px; }
