@@ -27,7 +27,7 @@ a, nav a {
   color: #fff; }
 
 small {
-  font-size: 15px; }
+  font-size: 20px; }
 
 nav a {
   color: #fff;
@@ -47,7 +47,7 @@ article li:before {
   height: 0;
   width: 0;
   left: -1em;
-  top: 0.9em;
+  top: 1em;
   position: relative; }
 
 .button {
@@ -90,8 +90,8 @@ section article {
 
 @media (max-width: 543px) {
   section article {
-    margin-left: 25px;
-    margin-right: 25px; } }
+    margin-left: 15px;
+    margin-right: 15px; } }
 
 @media (min-width: 544px) and (max-width: 767px) {
   section article {
@@ -103,14 +103,19 @@ section article {
     margin-left: 50px;
     margin-right: 50px; } }
 
-nav {
+body > header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 9999;
-  background-color: #000;
-  display: flex; }
+  background-color: #000; }
+
+nav {
+  max-width: 800px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; }
 
 nav ul {
   display: flex;
@@ -190,7 +195,8 @@ footer {
   background-image: url(./assets/image5.jpg); }
 
 img.logo {
-  max-width: 500px; }
+  max-width: 500px;
+  margin-top: 40px; }
 
 .button {
   display: inline-block;

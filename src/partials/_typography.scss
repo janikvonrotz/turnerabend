@@ -33,7 +33,7 @@ a {
 
 small {
     @extend .formattedtext;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 strong {
@@ -65,7 +65,7 @@ article li:before {
     height: 0;  
     width: 0;  
     left: -1em;  
-    top: 0.9em;  
+    top: 1em;  
     position: relative;  
 } 
 

@@ -20,14 +20,16 @@ Or run the dev server:
 
 ## Todo
 
+[ ] Fins solution to send mail from contact form
 [ ] Sync content
+[ ] Create sponsoring section
 [x] Increase line-height
 [x] Add logo
 [x] Make everything black
 [x] Change font color for default to #ababab except for links, small, strong tags
 [ ] Underline links on hover with animation
 [ ] Increase size of active navigation
-[ ] Center navigation
+[x] Center navigation
 [x] Remove spacing variables
 [x] Make background black
 [x] Make inverse button
@@ -81,13 +83,15 @@ Inspiration
 Inspiration for mobile navigation  
 [https://www.panter.ch/](https://www.panter.ch/)
 
-HTML5 semantics  [http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section](http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section)
+HTML5 semantics  
+[http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section](http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section)
 
 Color palette  [https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
 ](https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
 )
 
-Lorem Ipsum placeholder  [https://www.webpagefx.com/web-design/html-ipsum/](https://www.webpagefx.com/web-design/html-ipsum/)
+Lorem Ipsum placeholder  
+[https://www.webpagefx.com/web-design/html-ipsum/](https://www.webpagefx.com/web-design/html-ipsum/)
 
-Triangle bullet list
+Triangle bullet list  
 [https://codepen.io/leetech/pen/bIAah](https://codepen.io/leetech/pen/bIAah )
