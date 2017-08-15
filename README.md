@@ -87,7 +87,8 @@ Inspiration for mobile navigation
 HTML5 semantics  
 [http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section](http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section)
 
-Color palette  [https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
+Color palette  
+[https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
 ](https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
 )
 
