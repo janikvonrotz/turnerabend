@@ -20,23 +20,24 @@ Or run the dev server:
 
 ## Todo
 
-[ ] Fins solution to send mail from contact form
-[ ] Sync content
-[ ] Create sponsoring section
-[x] Increase line-height
-[x] Add logo
-[x] Make everything black
-[x] Change font color for default to #ababab except for links, small, strong tags
-[ ] Underline links on hover with animation
-[ ] Increase size of active navigation
-[x] Center navigation
-[x] Remove spacing variables
-[x] Make background black
-[x] Make inverse button
-[x] Capital letters for navigation
-[x] Make a display of all fonts
-[x] Format ul list
-[ ] Uglify js and css
+[ ] Optimize images with gulp  
+[ ] Fins solution to send mail from contact form  
+[ ] Sync content  
+[ ] Create sponsoring section  
+[ ] Underline links on hover with animation  
+[ ] Increase size of active navigation  
+[ ] Uglify js and css  
+[x] Increase line-height  
+[x] Add logo  
+[x] Make everything black  
+[x] Change font color for default to #ababab except for links, small, strong tags  
+[x] Center navigation  
+[x] Remove spacing variables  
+[x] Make background black  
+[x] Make inverse button  
+[x] Capital letters for navigation  
+[x] Make a display of all fonts  
+[x] Format ul list  
 
 ## Media query classes
 
