@@ -1,7 +1,7 @@
 # Turnerabend Page
 
-Staging: [https://janikvonrotz.gitlab.io/turnerabend](https://janikvonrotz.gitlab.io/turnerabend)
- [![build status](https://gitlab.com/janikvonrotz/turnerabend/badges/master/build.svg)](https://gitlab.com/janikvonrotz/turnerabend/commits/master)
+Repsitory: [https://janikvonrotz.gitlab.io/turnerabend2](https://janikvonrotz.gitlab.io/turnerabend2)  
+[![pipeline status](https://gitlab.com/janikvonrotz/turnerabend2/badges/master/pipeline.svg)](https://gitlab.com/janikvonrotz/turnerabend2/commits/master)
 
 ## Install
 
