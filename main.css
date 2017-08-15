@@ -1,5 +1,56 @@
 @import url(../node_modules/animate.css/animate.css);
 @import url(../node_modules/normalize.css/normalize.css);
+body {
+  background-color: #000; }
+
+section.style1 {
+  background-color: #000; }
+
+section.style2 {
+  background-color: #000; }
+
+section.style3 {
+  background-color: #000; }
+
+section.style4 {
+  background-color: #000; }
+
+section.style5 {
+  background-color: #000; }
+
+section.style6 {
+  background-color: #000; }
+
+section header {
+  padding-top: 60px; }
+
+footer {
+  background-color: red; }
+
+.jarallax {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+
+.jarallax.image1 {
+  background-image: url(./assets/image1.jpg); }
+
+.jarallax.image2 {
+  background-image: url(./assets/image2.jpg); }
+
+.jarallax.image3 {
+  background-image: url(./assets/image3.jpg); }
+
+.jarallax.image4 {
+  background-image: url(./assets/image4.png); }
+
+.jarallax.image5 {
+  background-image: url(./assets/image5.jpg); }
+
+img.logo {
+  max-width: 500px;
+  margin-top: 40px; }
+
 h1, h2 {
   font-size: 50px;
   font-family: "Montserrat", sans-serif;
@@ -51,7 +102,7 @@ article li:before {
   position: relative; }
 
 .button {
-  font-size: 25px; }
+  font-size: 20px; }
 
 a.active, a:hover {
   border-bottom: 2px solid #fff; }
@@ -74,6 +125,10 @@ a.active, a:hover {
     font-size: 15px; }
   .button {
     font-size: 20px; } }
+
+* {
+  margin: 0;
+  padding: 0; }
 
 body {
   background-color: #000; }
@@ -146,57 +201,6 @@ nav li:nth-child(3n + 5) {
 
 nav li:nth-child(3n + 6) {
   background: #000; }
-
-body {
-  background-color: #000; }
-
-section.style1 {
-  background-color: #000; }
-
-section.style2 {
-  background-color: #000; }
-
-section.style3 {
-  background-color: #000; }
-
-section.style4 {
-  background-color: #000; }
-
-section.style5 {
-  background-color: #000; }
-
-section.style6 {
-  background-color: #000; }
-
-section header {
-  padding-top: 60px; }
-
-footer {
-  background-color: red; }
-
-.jarallax {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%; }
-
-.jarallax.image1 {
-  background-image: url(./assets/image1.jpg); }
-
-.jarallax.image2 {
-  background-image: url(./assets/image2.jpg); }
-
-.jarallax.image3 {
-  background-image: url(./assets/image3.jpg); }
-
-.jarallax.image4 {
-  background-image: url(./assets/image4.png); }
-
-.jarallax.image5 {
-  background-image: url(./assets/image5.jpg); }
-
-img.logo {
-  max-width: 500px;
-  margin-top: 40px; }
 
 .button {
   display: inline-block;
