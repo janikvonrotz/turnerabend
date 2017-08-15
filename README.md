@@ -20,6 +20,7 @@ Or run the dev server:
 
 ## Todo
 
+[ ] Import css without path
 [ ] Optimize images with gulp  
 [ ] Create sponsoring section  
 [ ] Underline links on hover with animation  

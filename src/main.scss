@@ -2,8 +2,8 @@
 @import "partials/base";
 
 // Partials
-@import "../node_modules/animate.css/animate.css";
-@import "../node_modules/normalize.css/normalize.css";
+@import "/src/animate.css";
+@import "/src/normalize.css";
 @import "partials/layout";
 @import "partials/typography";
 @import "partials/grid";

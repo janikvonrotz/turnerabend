@@ -32,6 +32,14 @@ gulp.task('sass', function(){
     }))
 });
 
+gulp.task('copy', function() {
+  return gulp.src([
+    'node_modules/animate.css/animate.css',
+    'node_modules/normalize.css/normalize.css'
+  ])
+  .pipe(gulp.dest('./src'))
+})
+
 // start browser sync and watch directories
 gulp.task('watch', ['browserSync'], function(){
     gulp.watch('src/**/*.scss', ['sass'])
@@ -40,6 +48,6 @@ gulp.task('watch', ['browserSync'], function(){
 })
 
 // buil gulp project
-gulp.task('build', ['sass', 'useref'], function (){
+gulp.task('build', ['copy', 'sass', 'useref'], function (){
   console.log('Building files');
 })

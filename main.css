@@ -1,5 +1,5 @@
-@import url(../node_modules/animate.css/animate.css);
-@import url(../node_modules/normalize.css/normalize.css);
+@import url(/src/animate.css);
+@import url(/src/normalize.css);
 body {
   background-color: #000; }
 
