@@ -1,48 +1,76 @@
 
 h1 {
-    font-size: $lg;
+    font-size: 50px;
     font-family: $header-font;
     color: $header-color;
+    margin-bottom: 0.75em;
+    font-weight: $fontweight-normal;
 }
 
 h2 {
-    font-size: $md;
-    font-family: $header-font;
-    color: $header-color;
+    @extend h1;
+    font-size: 35px;
 }
 
 p {
     font-family: $text-font;
     color: $text-color;
-    font-size: $sm;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: $fontweight-normal;
 }
 
-p a {
+a {
+    font-family: $text-font;
     color: $linktext-color;
     text-decoration: none;
+}
+
+.formattedtext {
+    font-family: $text-font;
+    color: $formattedtext-color;
 }
 
 small {
-    font-family: $text-font;
-    color: $text-color;
-    font-size: $xs;
+    @extend .formattedtext;
+    font-size: 15px;
 }
 
-small a {
-    color: $linktext-color;
-    text-decoration: none;
+strong {
+    @extend .formattedtext;
 }
 
 nav a {
-    font-family: $text-font;
-    color: $text-color;
-    font-size: $xs;
+    @extend a;
+    color: $navtext-color;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+
+article ul {
+    list-style: none; 
 }
 
 article li {
-    font-family: $text-font;
-    color: $text-color;
-    font-size: $sm;
+    @extend p;
+}
+
+article li:before {   
+    content: "";  
+    border-color: transparent $formattedtext-color;  
+    border-style: solid;  
+    border-width: 0.35em 0 0.35em 0.45em;  
+    display: block;  
+    height: 0;  
+    width: 0;  
+    left: -1em;  
+    top: 0.9em;  
+    position: relative;  
+} 
+
+.button {
+    font-size: 25px;
 }
 
 a.active, a:hover {
@@ -61,39 +89,19 @@ a.active, a:hover {
   text-align: center;
 }
 
-// extra small devices
-@media (max-width: 543px) {
+// extra small and small devices
+@media (max-width: 767px) {
     h1 {
-        font-size: $md;
+        font-size: 35px;;
     }
     h2 {
-        font-size: $sm;
+        font-size: 25px;
     }
-    p, article li, footer p {
-        font-size: $xs;
+    p, .formattedtext {
+        font-size: 15px;
     }
-}
-// small devices
-@media (min-width: 544px) and (max-width: 767px) {
-    h1 {
-        font-size: $md;
-    }
-    h2 {
-        font-size: $sm;
-    }
-    p, article li, footer p {
-        font-size: $xs;
-    }
-}
-// medium devices
-@media (min-width: 768px) and (max-width: 991px) {
 
-}
-// large devices
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-// extra large devices
-@media (min-width: 1200px) {
-
+    .button {
+        font-size: 20px;
+    }
 }

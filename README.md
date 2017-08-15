@@ -18,6 +18,24 @@ Or run the dev server:
 
     npm run watch
 
+## Todo
+
+[ ] Sync content
+[x] Increase line-height
+[x] Add logo
+[x] Make everything black
+[x] Change font color for default to #ababab except for links, small, strong tags
+[ ] Underline links on hover with animation
+[ ] Increase size of active navigation
+[ ] Center navigation
+[x] Remove spacing variables
+[x] Make background black
+[x] Make inverse button
+[x] Capital letters for navigation
+[x] Make a display of all fonts
+[x] Format ul list
+[ ] Uglify js and css
+
 ## Media query classes
 
 ```css
@@ -65,10 +83,11 @@ Inspiration for mobile navigation
 
 HTML5 semantics  [http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section](http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section)
 
-Color palette  
-[https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
+Color palette  [https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
 ](https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
 )
 
-Lorem Ipsum placeholder  
-[https://www.webpagefx.com/web-design/html-ipsum/](https://www.webpagefx.com/web-design/html-ipsum/)
+Lorem Ipsum placeholder  [https://www.webpagefx.com/web-design/html-ipsum/](https://www.webpagefx.com/web-design/html-ipsum/)
+
+Triangle bullet list
+[https://codepen.io/leetech/pen/bIAah](https://codepen.io/leetech/pen/bIAah )

@@ -1,3 +1,7 @@
+body {
+    background-color: $background-color;
+}
+
 section.style1 {
     background-color: $style1-color;
 }
@@ -18,7 +22,7 @@ section.style6 {
 }
 
 section header {
-    padding-top: $xxl;
+    padding-top: 60px;
 }
 
 footer {
@@ -45,4 +49,8 @@ footer {
 }
 .jarallax.image5 {
     background-image: url(./assets/image5.jpg)
+}
+
+img.logo {
+    max-width: 500px;
 }

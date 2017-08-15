@@ -1,10 +1,4 @@
 
-* { 
-    margin: 0; 
-    padding: 0; 
-    text-decoration: none; 
-}
-
 body {
     background-color: $background-color;
 }
@@ -25,29 +19,21 @@ section article {
 // extra small devices
 @media (max-width: 543px) {
     section article  {
-        margin-left: $sm;
-        margin-right: $sm;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 }
 // small devices
 @media (min-width: 544px) and (max-width: 767px) {
     section article  {
-        margin-left: $md;
-        margin-right: $md;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 }
 // medium devices
 @media (min-width: 768px) and (max-width: 991px) {
     section article  {
-        margin-left: $lg;
-        margin-right: $lg;
+        margin-left: 50px;
+        margin-right: 50px;
     }
-}
-// large devices
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-// extra large devices
-@media (min-width: 1200px) {
-
 }

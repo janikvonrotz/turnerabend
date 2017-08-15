@@ -3,22 +3,23 @@ nav {
     top: 0; 
     left: 0; 
     right: 0; 
-    background: #fff; 
     z-index: 9999; 
+    background-color: $navbackground-color;
+    display: flex;
 }
 
 nav ul {
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 nav li { 
-    color: $navtext-color; 
     display: inline-block; 
     padding: 1rem; 
     float: left;
-    font-weight: bold; 
 }
 
 nav li:nth-child( 3n + 1) { 
