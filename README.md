@@ -21,12 +21,11 @@ Or run the dev server:
 ## Todo
 
 [ ] Optimize images with gulp  
-[ ] Fins solution to send mail from contact form  
-[ ] Sync content  
 [ ] Create sponsoring section  
 [ ] Underline links on hover with animation  
 [ ] Increase size of active navigation  
 [ ] Uglify js and css  
+[x] Find solution to send mail from contact form  
 [x] Increase line-height  
 [x] Add logo  
 [x] Make everything black  
@@ -96,4 +95,7 @@ Lorem Ipsum placeholder
 [https://www.webpagefx.com/web-design/html-ipsum/](https://www.webpagefx.com/web-design/html-ipsum/)
 
 Triangle bullet list  
-[https://codepen.io/leetech/pen/bIAah](https://codepen.io/leetech/pen/bIAah )
+[https://codepen.io/leetech/pen/bIAah](https://codepen.io/leetech/pen/bIAah)
+
+Send mail from a static site
+[https://formspree.io/](https://formspree.io/)
