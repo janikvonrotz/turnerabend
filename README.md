@@ -84,8 +84,7 @@ Inspiration
 Inspiration for mobile navigation  
 [https://www.panter.ch/](https://www.panter.ch/)
 
-HTML5 semantics  
-[http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section](http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section)
+HTML5 semantics  [http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section](http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section)
 
 Color palette  
 [https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
