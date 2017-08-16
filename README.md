@@ -22,7 +22,7 @@ Or run the dev server:
 ## Todo
 
 
-[ ] Sponsoring carousel
+[ ] Sponsoring slider
 [ ] Create sponsoring section  
 [ ] Underline links on hover with animation  
 [ ] Increase size of active navigation  
@@ -102,5 +102,5 @@ Triangle bullet list
 Send mail from a static site  
 [https://formspree.io/](https://formspree.io/)
 
-Coursel  
+Slider  
 [https://flickity.metafizzy.co/](https://flickity.metafizzy.co/)
