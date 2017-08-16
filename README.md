@@ -1,6 +1,7 @@
 # Turnerabend Page
 
-Repsitory: [https://janikvonrotz.gitlab.io/turnerabend2](https://janikvonrotz.gitlab.io/turnerabend2)  
+Repository: [GitLab - turnerabend2](https://gitlab.com/janikvonrotz/turnerabend2)  
+Staging: [GitLab pages - turnerabend2](https://janikvonrotz.gitlab.io/turnerabend2)  
 [![pipeline status](https://gitlab.com/janikvonrotz/turnerabend2/badges/master/pipeline.svg)](https://gitlab.com/janikvonrotz/turnerabend2/commits/master)
 
 ## Install
@@ -22,11 +23,11 @@ Or run the dev server:
 
 
 [ ] Sponsoring carousel
-[ ] Optimize images with gulp  
 [ ] Create sponsoring section  
 [ ] Underline links on hover with animation  
 [ ] Increase size of active navigation  
 [ ] Uglify js and css  
+[x] Optimize images with gulp  
 [x] Import css without path
 [x] Find solution to send mail from contact form  
 [x] Increase line-height  
@@ -86,12 +87,11 @@ Inspiration
 Inspiration for mobile navigation  
 [https://www.panter.ch/](https://www.panter.ch/)
 
-HTML5 semantics  [http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section](http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section)
+HTML5 semantics  
+[http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section](http://www.sichtweise.co/blog/artikel/html5-wann-verwende-ich-article-oder-section)
 
 Color palette  
-[https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
-](https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd
-)
+[https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd](https://coolors.co/05668d-028090-00a896-02c39a-f0f3bd)
 
 Lorem Ipsum placeholder  
 [https://www.webpagefx.com/web-design/html-ipsum/](https://www.webpagefx.com/web-design/html-ipsum/)
@@ -99,8 +99,8 @@ Lorem Ipsum placeholder
 Triangle bullet list  
 [https://codepen.io/leetech/pen/bIAah](https://codepen.io/leetech/pen/bIAah)
 
-Send mail from a static site
+Send mail from a static site  
 [https://formspree.io/](https://formspree.io/)
 
-Coursel
+Coursel  
 [https://flickity.metafizzy.co/](https://flickity.metafizzy.co/)
