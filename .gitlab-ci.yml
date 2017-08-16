@@ -2,8 +2,10 @@
 # Full project: https://gitlab.com/pages/plain-html
 pages:
   stage: deploy
+  script:
+  - mv dist public
   artifacts:
     paths:
-    - dist
+    - public
   only:
   - master
