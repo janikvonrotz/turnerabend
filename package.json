@@ -8,17 +8,21 @@
     "watch": "gulp watch",
     "build": "gulp build"
   },
-  "author": "",
+  "author": "Janik von Rotz",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-useref": "^3.1.2"
+    "browser-sync": "^2.18.13"
   },
   "dependencies": {
-    "animate.css": "^3.5.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-useref": "^3.1.2",
     "in-view": "^0.6.1",
-    "normalize.css": "^7.0.0"
+    "jarallax": "^1.8.0",
+    "normalize.css": "^7.0.0",
+    "smooth-scroll": "^12.1.3"
   }
 }
