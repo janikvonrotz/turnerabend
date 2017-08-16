@@ -20,12 +20,14 @@ Or run the dev server:
 
 ## Todo
 
-[ ] Import css without path
+
+[ ] Sponsoring carousel
 [ ] Optimize images with gulp  
 [ ] Create sponsoring section  
 [ ] Underline links on hover with animation  
 [ ] Increase size of active navigation  
 [ ] Uglify js and css  
+[x] Import css without path
 [x] Find solution to send mail from contact form  
 [x] Increase line-height  
 [x] Add logo  
@@ -99,3 +101,6 @@ Triangle bullet list
 
 Send mail from a static site
 [https://formspree.io/](https://formspree.io/)
+
+Coursel
+[https://flickity.metafizzy.co/](https://flickity.metafizzy.co/)
