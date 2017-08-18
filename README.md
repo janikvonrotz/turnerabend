@@ -21,11 +21,12 @@ Or run the dev server:
 
 ## Todo
 
-[ ] Sponsoring slider
+[ ] Decrease image size with gulp  
 [ ] Create sponsoring section  
 [ ] Underline links on hover with animation  
 [ ] Increase size of active navigation  
 [ ] Uglify js and css  
+[x] Sponsoring slider  
 [x] Update layout  
 [x] Update new font  
 [x] Optimize images with gulp  

@@ -123,8 +123,12 @@
         </article>
     </section>
 
-    <section data-jarallax='{"speed": 0.5}' class="jarallax image4"></section>
-
+    <div class="main-carousel" data-flickity='{ "pageDots": false }'>
+        <div class="carousel-cell"><img src="assets/image1.jpg" /></div>
+        <div class="carousel-cell"><img src="assets/image2.jpg" /></div>
+        <div class="carousel-cell"><img src="assets/image3.jpg" /></div>
+    </div>
+    
     <section class="style5 fill-screen" id="section5">
         <article class="align-center">
             <header>
@@ -196,6 +200,7 @@
     </footer>
 
     <!--build:js main.min.js -->
+    <script src="../node_modules/flickity/dist/flickity.pkgd.js"></script>
     <script src="../node_modules/in-view/dist/in-view.min.js"></script>
     <script src="../node_modules/smooth-scroll/dist/js/smooth-scroll.js"></script>
     <script src="../node_modules/jarallax/jarallax/jarallax.js"></script> 

@@ -39,7 +39,8 @@ gulp.task('sass', function(){
 // copy css
 gulp.task('copy-css', function() {
   var files = [
-    'node_modules/normalize.css/normalize.css'
+    'node_modules/normalize.css/normalize.css',
+    'node_modules/flickity/dist/flickity.css'
   ]
   var streams = []
   files.forEach((file) => {
