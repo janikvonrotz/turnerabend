@@ -1,0 +1,21 @@
+.flexbox {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox .cell {
+    flex: 1;
+}
+
+.flexbox .cell:first-child {
+    text-align: right;
+    margin-right: 5px;
+}
+
+.flexbox .cell:last-child {
+    text-align: left;
+    margin-left: 5px;
+}

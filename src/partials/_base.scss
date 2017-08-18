@@ -17,8 +17,10 @@ $navbackground-color: #000;
 $footerbackground-color: red;
 $background-color: #000;
 
-$header-font: 'Montserrat', sans-serif;
-$text-font: 'Merriweather Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Open+Sans:400,600,700');
+$header-font: 'Josefin Sans', sans-serif;
+$text-font: 'Open Sans', sans-serif;
 
 $fontweight-bold: 700;
+$fontweight-semibbold: 600;
 $fontweight-normal: 400;

@@ -21,12 +21,13 @@ Or run the dev server:
 
 ## Todo
 
-
 [ ] Sponsoring slider
 [ ] Create sponsoring section  
 [ ] Underline links on hover with animation  
 [ ] Increase size of active navigation  
 [ ] Uglify js and css  
+[x] Update layout  
+[x] Update new font  
 [x] Optimize images with gulp  
 [x] Import css without path
 [x] Find solution to send mail from contact form  

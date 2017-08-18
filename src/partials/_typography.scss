@@ -3,9 +3,10 @@ h1 {
     font-size: 50px;
     font-family: $header-font;
     color: $header-color;
-    margin-top: 0.75em;
-    margin-bottom: 0.75em;
-    font-weight: $fontweight-normal;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-weight: $fontweight-semibbold;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -30,6 +31,7 @@ a {
 .formattedtext {
     font-family: $text-font;
     color: $formattedtext-color;
+    font-weight: $fontweight-normal;
 }
 
 small {
@@ -39,6 +41,7 @@ small {
 
 strong {
     @extend .formattedtext;
+    font-weight: $fontweight-bold;
 }
 
 mark {
@@ -49,9 +52,10 @@ mark {
 nav a {
     @extend a;
     color: $navtext-color;
+    font-family: $text-font;
     font-size: 15px;
     text-transform: uppercase;
-    font-weight: bold; 
+    font-weight: $fontweight-semibbold;
 }
 
 article ul {
@@ -78,6 +82,8 @@ article li:before {
 
 .button {
     font-size: 20px;
+    text-transform: uppercase;
+    font-weight: $fontweight-semibbold
 }
 
 a.active, a:hover {

@@ -7,8 +7,13 @@ body {
     background-color: $background-color;
 }
 
-section {
+section.fill-screen {
     height: 100vh;
+}
+
+article {
+    padding-top: 20px;
+    padding-bottom: 70px;
 }
 
 section.jarallax {
@@ -16,8 +21,15 @@ section.jarallax {
 }
 
 section article, nav {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 800px;
+}
+
+img.logo {
+    max-width: 500px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 // extra small devices
@@ -26,12 +38,18 @@ section article, nav {
         margin-left: 15px;
         margin-right: 15px;
     }
+    img.logo {
+        max-width: 300px;
+    }
 }
 // small devices
 @media (min-width: 544px) and (max-width: 767px) {
     section article, nav  {
         margin-left: 25px;
         margin-right: 25px;
+    }
+    img.logo {
+        max-width: 400px;
     }
 }
 // medium devices

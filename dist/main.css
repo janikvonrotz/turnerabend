@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Open+Sans:400,600,700");
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -411,9 +412,6 @@ section.style5 {
 section.style6 {
   background-color: #000; }
 
-section header {
-  padding-top: 60px; }
-
 footer {
   background-color: red; }
 
@@ -437,49 +435,50 @@ footer {
 .jarallax.image5 {
   background-image: url(./assets/image5.jpg); }
 
-img.logo {
-  max-width: 500px;
-  margin-top: 40px;
-  margin-bottom: 40px; }
-
 h1, h2 {
   font-size: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #fff;
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
-  font-weight: 400; }
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  text-transform: uppercase; }
 
 h2 {
   font-size: 35px; }
 
 p, article li, form label {
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #ababab;
   font-size: 20px;
   line-height: 1.5em;
   font-weight: 400; }
 
 a, nav a {
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
   text-decoration: none; }
 
 .formattedtext, small, strong, mark, form textarea, form input {
-  font-family: "Merriweather Sans", sans-serif;
-  color: #fff; }
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-weight: 400; }
 
 small {
   font-size: 17px; }
+
+strong {
+  font-weight: 700; }
 
 mark {
   background-color: #000; }
 
 nav a {
   color: #fff;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: 600; }
 
 article ul {
   padding-left: 25px;
@@ -498,7 +497,9 @@ article li:before {
   position: relative; }
 
 .button {
-  font-size: 20px; }
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600; }
 
 a.active, a:hover {
   border-bottom: 2px solid #fff; }
@@ -531,25 +532,39 @@ a.active, a:hover {
 body {
   background-color: #000; }
 
-section {
+section.fill-screen {
   height: 100vh; }
+
+article {
+  padding-top: 20px;
+  padding-bottom: 70px; }
 
 section.jarallax {
   height: 50vh; }
 
 section article, nav {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 800px; }
+
+img.logo {
+  max-width: 500px;
+  margin-top: 70px;
+  margin-bottom: 70px; }
 
 @media (max-width: 543px) {
   section article, nav {
     margin-left: 15px;
-    margin-right: 15px; } }
+    margin-right: 15px; }
+  img.logo {
+    max-width: 300px; } }
 
 @media (min-width: 544px) and (max-width: 767px) {
   section article, nav {
     margin-left: 25px;
-    margin-right: 25px; } }
+    margin-right: 25px; }
+  img.logo {
+    max-width: 400px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   section article, nav {
@@ -569,6 +584,7 @@ nav {
 
 nav ul {
   display: flex;
+  justify-content: center;
   overflow-x: auto;
   overflow-y: hidden;
   margin: 0;
@@ -599,7 +615,7 @@ nav li:nth-child(3n + 6) {
 
 .button {
   display: inline-block;
-  font-family: "Merriweather Sans", sans-serif, sans-serif;
+  font-family: "Open Sans", sans-serif, sans-serif;
   color: #fff;
   background-color: #000;
   border: 4px solid #fff;
@@ -615,19 +631,37 @@ nav li:nth-child(3n + 6) {
 
 form fieldset {
   border: none;
-  margin: 0;
   padding: 0;
   margin-bottom: 20px; }
 
-form label {
-  display: block;
-  clear: both; }
-
 form textarea, form input {
-  line-height: 1.5em;
-  padding: 5px;
+  width: 280px;
+  padding-left: 5px;
+  padding-right: 5px;
   background-color: #000;
   border: 4px solid #fff; }
 
+@media (max-width: 543px) {
+  form textarea, form input {
+    width: 200px; } }
+
 footer {
   padding: 5px; }
+
+.flexbox {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.flexbox .cell {
+  flex: 1; }
+
+.flexbox .cell:first-child {
+  text-align: right;
+  margin-right: 5px; }
+
+.flexbox .cell:last-child {
+  text-align: left;
+  margin-left: 5px; }
