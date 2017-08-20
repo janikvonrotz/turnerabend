@@ -4,11 +4,11 @@ var browserSync = require('browser-sync').create();
 var useref = require('gulp-useref');
 var rename = require('gulp-rename');
 var merge = require('merge-stream');
-var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
+var responsive = require('gulp-responsive')
 
 // run browser sync in current directory
-gulp.task('browserSync', function() {
+gulp.task('browserSync', () => {
   browserSync.init({
     server: {
       baseDir: './dist'
@@ -17,7 +17,7 @@ gulp.task('browserSync', function() {
 })
 
 // extract and bundle js files
-gulp.task('useref', function(){
+gulp.task('useref', () => {
   return gulp.src('src/**/*.html')
     .pipe(useref())
     .pipe(gulp.dest('./dist'))
@@ -27,7 +27,7 @@ gulp.task('useref', function(){
 });
 
 // transpile sass files
-gulp.task('sass', function(){
+gulp.task('sass', () => {
   return gulp.src('src/main.scss')
     .pipe(sass())
     .pipe(gulp.dest('./dist'))
@@ -37,7 +37,7 @@ gulp.task('sass', function(){
 });
 
 // copy css
-gulp.task('copy-css', function() {
+gulp.task('copy-css', () => {
   var files = [
     'node_modules/normalize.css/normalize.css',
     'node_modules/flickity/dist/flickity.css'
@@ -56,26 +56,35 @@ gulp.task('copy-css', function() {
 })
 
 // copy images
-gulp.task('copy-images', function(){
-  return gulp.src('src/assets/**/*.+(png|jpg|gif|svg)')
-  .pipe(cache(imagemin({
-    interlaced: true
-    })))
-  .pipe(gulp.dest('./dist/assets'))
+gulp.task('responsive-images', () => {
+  return gulp.src('src/assets/**/*.+(png|jpg|gif)')
+    .pipe(responsive({
+      '*.+(jpg|png|gif)': [{
+        width: 543,
+        rename: {suffix: '-543'}
+      }, {
+        width: 991,
+        rename: {suffix: '-991'}
+      }, {
+        width: 1600,
+        rename: {suffix: '-1600'}
+      }]
+    }))
+    .pipe(gulp.dest('dist/assets'))
 });
 
-// clear gulp cache
-gulp.task('clear', function (done) {
-  return cache.clearAll(done);
+gulp.task('copy-images', () => {
+  return gulp.src('src/assets/**/*.+(svg)')
+    .pipe(gulp.dest('dist/assets'))
 });
 
 // buil gulp project
-gulp.task('build', ['copy-css', 'copy-images', 'sass', 'useref'], () => {
+gulp.task('build', ['copy-css', 'responsive-images', 'copy-images', 'sass', 'useref'], () => {
   console.log('Building files')
 })
 
 // start browser sync and watch directories
-gulp.task('watch', ['browserSync'], function(){
+gulp.task('watch', ['browserSync'], () => {
     gulp.watch('src/**/*.scss', ['sass'])
     gulp.watch('src/**/*.html', ['useref'])
     gulp.watch('src/**/*.js', ['useref'])

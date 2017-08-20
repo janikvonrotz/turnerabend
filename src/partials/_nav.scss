@@ -13,7 +13,6 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: center;
     overflow-x: auto;
     overflow-y: hidden;
     margin: 0;
@@ -43,4 +42,10 @@ nav li:nth-child( 3n + 5) {
 }
 nav li:nth-child( 3n + 6) {
     background: $style6-color; 
+}
+
+@media (min-width: 610px) {
+    nav ul {
+        justify-content: center;
+    }
 }

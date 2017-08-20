@@ -3,8 +3,8 @@ h1 {
     font-size: 50px;
     font-family: $header-font;
     color: $header-color;
-    margin-top: 70px;
-    margin-bottom: 40px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
     font-weight: $fontweight-semibbold;
     text-transform: uppercase;
 }
@@ -20,6 +20,12 @@ p {
     font-size: 20px;
     line-height: 1.5em;
     font-weight: $fontweight-normal;
+    margin-bottom: 0.5em;
+}
+
+span {
+    @extend p;
+    margin-bottom: 0;
 }
 
 a {
@@ -60,25 +66,13 @@ nav a {
 
 article ul {
     padding-left: 25px;
-    list-style: none; 
+    list-style: disc; 
+    margin-bottom: 0.5em;
 }
 
 article li {
-    @extend p;
+    @extend span;
 }
-
-article li:before {   
-    content: "";  
-    border-color: transparent $formattedtext-color;  
-    border-style: solid;  
-    border-width: 0.35em 0 0.35em 0.45em;  
-    display: block;  
-    height: 0;  
-    width: 0;  
-    left: -1em;  
-    top: 1em;  
-    position: relative;  
-} 
 
 .button {
     font-size: 20px;
@@ -105,7 +99,7 @@ a.active, a:hover {
 // extra small and small devices
 @media (max-width: 767px) {
     h1 {
-        font-size: 35px;;
+        font-size: 35px;
     }
     h2 {
         font-size: 25px;
