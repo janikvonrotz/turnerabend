@@ -19,6 +19,13 @@ Or run the dev server:
 
     npm run watch
 
+## Features
+
+* Static website contact form
+* Advanced gulp worfklow
+* Configurable theme
+* Responsive images
+
 ## Todo
 
 [ ] Gulp cache responsive images
