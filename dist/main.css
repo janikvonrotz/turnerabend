@@ -413,7 +413,7 @@ section.style6 {
   background-color: #000; }
 
 footer {
-  background-color: red; }
+  background-color: #000; }
 
 .jarallax {
   background-size: cover;
@@ -457,12 +457,13 @@ footer {
     background-image: url(./assets/image5-1600.jpg); } }
 
 h1, h2 {
-  font-size: 50px;
   font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
   color: #fff;
   margin-top: 1em;
   margin-bottom: 0.5em;
-  font-weight: 600;
   text-transform: uppercase; }
 
 h2 {
@@ -470,10 +471,10 @@ h2 {
 
 p, span, article li, form label {
   font-family: "Open Sans", sans-serif;
-  color: #ababab;
   font-size: 20px;
-  line-height: 1.5em;
   font-weight: 400;
+  line-height: 1.5em;
+  color: #ababab;
   margin-bottom: 0.5em; }
 
 span, article li {
@@ -486,8 +487,8 @@ a, nav a {
 
 .formattedtext, small, strong, mark, form textarea, form input {
   font-family: "Open Sans", sans-serif;
-  color: #fff;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #fff; }
 
 small {
   font-size: 17px; }
@@ -499,21 +500,24 @@ mark {
   background-color: #000; }
 
 nav a {
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
   font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 600; }
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase; }
 
 article ul {
-  padding-left: 25px;
   list-style: disc;
+  padding-left: 25px;
   margin-bottom: 0.5em; }
 
 .button {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
-  text-transform: uppercase;
-  font-weight: 600; }
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
 
 a.active, a:hover {
   border-bottom: 2px solid #fff; }
@@ -531,13 +535,13 @@ a.active, a:hover {
   h1, h2 {
     font-size: 35px; }
   h2 {
-    font-size: 25px; }
+    font-size: 22px; }
   p, span, article li, form label, .formattedtext, small, strong, mark, form textarea, form input {
     font-size: 15px; }
   small {
     font-size: 13px; }
   .button {
-    font-size: 20px; } }
+    font-size: 18px; } }
 
 * {
   margin: 0;
@@ -641,17 +645,17 @@ nav li:nth-child(3n + 5) {
 nav li:nth-child(3n + 6) {
   background: #000; }
 
-@media (min-width: 610px) {
+@media (min-width: 620px) {
   nav ul {
     justify-content: center; } }
 
 .button {
   display: inline-block;
-  font-family: "Open Sans", sans-serif, sans-serif;
   color: #fff;
   background-color: #000;
   border: 4px solid #fff;
   padding: 0.5em;
+  padding-top: 0.75em;
   padding-right: 1em;
   padding-left: 1em;
   text-decoration: none; }

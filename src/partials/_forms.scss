@@ -1,10 +1,10 @@
 .button {
     display: inline-block;
-    font-family: $text-font, sans-serif;
     color: $formattedtext-color;
     background-color: $background-color;
     border: 4px solid $buttonbackground-color;
     padding: 0.5em;
+    padding-top: 0.75em;
     padding-right: 1em;
     padding-left: 1em;
     text-decoration: none;

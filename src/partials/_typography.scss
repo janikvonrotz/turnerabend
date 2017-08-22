@@ -1,11 +1,13 @@
 
 h1 {
-    font-size: 50px;
     font-family: $header-font;
+    font-size: 50px;    
+    font-weight: $fontweight-semibbold;
+    letter-spacing: 1px;
+    
     color: $header-color;
     margin-top: 1em;
     margin-bottom: 0.5em;
-    font-weight: $fontweight-semibbold;
     text-transform: uppercase;
 }
 
@@ -16,28 +18,32 @@ h2 {
 
 p {
     font-family: $text-font;
-    color: $text-color;
     font-size: 20px;
-    line-height: 1.5em;
     font-weight: $fontweight-normal;
+    line-height: 1.5em;
+    
+    color: $text-color;
     margin-bottom: 0.5em;
 }
 
 span {
     @extend p;
+
     margin-bottom: 0;
 }
 
 a {
     font-family: $text-font;
+
     color: $linktext-color;
     text-decoration: none;
 }
 
 .formattedtext {
     font-family: $text-font;
-    color: $formattedtext-color;
     font-weight: $fontweight-normal;
+    
+    color: $formattedtext-color;
 }
 
 small {
@@ -52,21 +58,24 @@ strong {
 
 mark {
     @extend .formattedtext;
+
     background-color: $background-color;
 }
 
 nav a {
     @extend a;
-    color: $navtext-color;
-    font-family: $text-font;
-    font-size: 15px;
-    text-transform: uppercase;
+    font-size: 15px;    
+    font-family: $header-font;
     font-weight: $fontweight-semibbold;
+    letter-spacing: 1px;
+
+    color: $navtext-color;    
+    text-transform: uppercase;
 }
 
 article ul {
-    padding-left: 25px;
     list-style: disc; 
+    padding-left: 25px;    
     margin-bottom: 0.5em;
 }
 
@@ -75,9 +84,12 @@ article li {
 }
 
 .button {
+    font-family: $header-font;    
     font-size: 20px;
+    font-weight: $fontweight-semibbold;
+    letter-spacing: 1px;
+    
     text-transform: uppercase;
-    font-weight: $fontweight-semibbold
 }
 
 a.active, a:hover {
@@ -102,7 +114,7 @@ a.active, a:hover {
         font-size: 35px;
     }
     h2 {
-        font-size: 25px;
+        font-size: 22px;
     }
     p, .formattedtext {
         font-size: 15px;
@@ -111,6 +123,6 @@ a.active, a:hover {
         font-size: 13px;
     }
     .button {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
