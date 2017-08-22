@@ -29,10 +29,11 @@ Or run the dev server:
 
 ## Todo
 
-[ ] Create static Image Gallery with flexbox
-[ ] Update content
-[ ] Update form mail
-[ ] Gulp cache responsive images
+[ ] Create static Image Gallery with flexbox  
+[ ] Update content  
+[ ] Add favicon  
+[ ] Update form mail  
+[ ] Gulp cache responsive images 
 [ ] Create sponsoring section  
 [ ] Underline links on hover with animation  
 [ ] Increase size of active navigation  
