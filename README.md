@@ -21,6 +21,7 @@ Or run the dev server:
 
 ## Features
 
+* Ready for GitLab pages deployment
 * Static website contact form
 * Advanced gulp worfklow
 * Configurable theme
