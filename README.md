@@ -1,8 +1,8 @@
 # Turnerabend Page
 
-Repository: [GitLab - turnerabend2](https://gitlab.com/janikvonrotz/turnerabend2)  
-Staging: [GitLab pages - turnerabend2](https://janikvonrotz.gitlab.io/turnerabend2)  
-[![pipeline status](https://gitlab.com/janikvonrotz/turnerabend2/badges/master/pipeline.svg)](https://gitlab.com/janikvonrotz/turnerabend2/commits/master)
+Repository: [GitLab - turnerabend](https://gitlab.com/janikvonrotz/turnerabend)  
+Staging: [GitLab pages - turnerabend](https://janikvonrotz.gitlab.io/turnerabend)  
+[![pipeline status](https://gitlab.com/janikvonrotz/turnerabend/badges/master/pipeline.svg)](https://gitlab.com/janikvonrotz/turnerabend/commits/master)
 
 ## Install
 
