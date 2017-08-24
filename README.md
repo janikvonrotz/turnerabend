@@ -29,14 +29,15 @@ Or run the dev server:
 
 ## Todo
 
+[ ] Enable ticket frog  
 [ ] Create static Image Gallery with flexbox  
 [ ] Update content  
-[ ] Add favicon  
 [ ] Gulp cache responsive images 
 [ ] Create sponsoring section  
 [ ] Underline links on hover with animation  
 [ ] Increase size of active navigation  
 [ ] Uglify js and css  
+[x] Add favicon  
 [x] Update form mail  
 [x] Decrease image size with gulp  
 [x] Sponsoring slider  

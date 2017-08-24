@@ -421,70 +421,100 @@ footer {
   background-position: 50% 50%; }
 
 @media (max-width: 543px) {
-  .jarallax.image1 {
-    background-image: url(./assets/image1-543.jpg); }
-  .jarallax.image2 {
-    background-image: url(./assets/image2-543.jpg); }
-  .jarallax.image3 {
-    background-image: url(./assets/image3-543.jpg); }
-  .jarallax.image4 {
-    background-image: url(./assets/image4-543.jpg); }
-  .jarallax.image5 {
-    background-image: url(./assets/image5-543.jpg); }
-  .jarallax.image6 {
-    background-image: url(./assets/image6-543.jpg); }
-  .jarallax.image7 {
-    background-image: url(./assets/image7-543.jpg); }
-  .jarallax.image8 {
-    background-image: url(./assets/image8-543.jpg); }
-  .jarallax.image9 {
-    background-image: url(./assets/image9-543.jpg); }
-  .jarallax.image10 {
-    background-image: url(./assets/image10-543.jpg); } }
+  .image1 {
+    background: url(./assets/image1-543.jpg) no-repeat center;
+    background-size: cover; }
+  .image2 {
+    background: url(./assets/image2-543.jpg) no-repeat center;
+    background-size: cover; }
+  .image3 {
+    background: url(./assets/image3-543.jpg) no-repeat center;
+    background-size: cover; }
+  .image4 {
+    background: url(./assets/image4-543.jpg) no-repeat center;
+    background-size: cover; }
+  .image5 {
+    background: url(./assets/image5-543.jpg) no-repeat center;
+    background-size: cover; }
+  .image6 {
+    background: url(./assets/image6-543.jpg) no-repeat center;
+    background-size: cover; }
+  .image7 {
+    background: url(./assets/image7-543.jpg) no-repeat center;
+    background-size: cover; }
+  .image8 {
+    background: url(./assets/image8-543.jpg) no-repeat center;
+    background-size: cover; }
+  .image9 {
+    background: url(./assets/image9-543.jpg) no-repeat center;
+    background-size: cover; }
+  .image10 {
+    background: url(./assets/image10-543.jpg) no-repeat center;
+    background-size: cover; } }
 
 @media (min-width: 544px) and (max-width: 991px) {
-  .jarallax.image1 {
-    background-image: url(./assets/image1-991.jpg); }
-  .jarallax.image2 {
-    background-image: url(./assets/image2-991.jpg); }
-  .jarallax.image3 {
-    background-image: url(./assets/image3-991.jpg); }
-  .jarallax.image4 {
-    background-image: url(./assets/image4-991.jpg); }
-  .jarallax.image5 {
-    background-image: url(./assets/image5-991.jpg); }
-  .jarallax.image6 {
-    background-image: url(./assets/image6-991.jpg); }
-  .jarallax.image7 {
-    background-image: url(./assets/image7-991.jpg); }
-  .jarallax.image8 {
-    background-image: url(./assets/image8-991.jpg); }
-  .jarallax.image9 {
-    background-image: url(./assets/image9-991.jpg); }
-  .jarallax.image10 {
-    background-image: url(./assets/image10-991.jpg); } }
+  .image1 {
+    background: url(./assets/image1-991.jpg) no-repeat center;
+    background-size: cover; }
+  .image2 {
+    background: url(./assets/image2-991.jpg) no-repeat center;
+    background-size: cover; }
+  .image3 {
+    background: url(./assets/image3-991.jpg) no-repeat center;
+    background-size: cover; }
+  .image4 {
+    background: url(./assets/image4-991.jpg) no-repeat center;
+    background-size: cover; }
+  .image5 {
+    background: url(./assets/image5-991.jpg) no-repeat center;
+    background-size: cover; }
+  .image6 {
+    background: url(./assets/image6-991.jpg) no-repeat center;
+    background-size: cover; }
+  .image7 {
+    background: url(./assets/image7-991.jpg) no-repeat center;
+    background-size: cover; }
+  .image8 {
+    background: url(./assets/image8-991.jpg) no-repeat center;
+    background-size: cover; }
+  .image9 {
+    background: url(./assets/image9-991.jpg) no-repeat center;
+    background-size: cover; }
+  .image10 {
+    background: url(./assets/image10-991.jpg) no-repeat center;
+    background-size: cover; } }
 
 @media (min-width: 992px) {
-  .jarallax.image1 {
-    background-image: url(./assets/image1-1600.jpg); }
-  .jarallax.image2 {
-    background-image: url(./assets/image2-1600.jpg); }
-  .jarallax.image3 {
-    background-image: url(./assets/image3-1600.jpg); }
-  .jarallax.image4 {
-    background-image: url(./assets/image4-1600.jpg); }
-  .jarallax.image5 {
-    background-image: url(./assets/image5-1600.jpg); }
-  .jarallax.image6 {
-    background-image: url(./assets/image6-1600.jpg); }
-  .jarallax.image7 {
-    background-image: url(./assets/image7-1600.jpg); }
-  .jarallax.image8 {
-    background-image: url(./assets/image8-1600.jpg); }
-  .jarallax.image9 {
-    background-image: url(./assets/image9-1600.jpg); }
-  .jarallax.image10 {
-    background-image: url(./assets/image10-1600.jpg); } }
+  .image1 {
+    background: url(./assets/image1-1600.jpg) no-repeat center;
+    background-size: cover; }
+  .image2 {
+    background: url(./assets/image2-1600.jpg) no-repeat center;
+    background-size: cover; }
+  .image3 {
+    background: url(./assets/image3-1600.jpg) no-repeat center;
+    background-size: cover; }
+  .image4 {
+    background: url(./assets/image4-1600.jpg) no-repeat center;
+    background-size: cover; }
+  .image5 {
+    background: url(./assets/image5-1600.jpg) no-repeat center;
+    background-size: cover; }
+  .image6 {
+    background: url(./assets/image6-1600.jpg) no-repeat center;
+    background-size: cover; }
+  .image7 {
+    background: url(./assets/image7-1600.jpg) no-repeat center;
+    background-size: cover; }
+  .image8 {
+    background: url(./assets/image8-1600.jpg) no-repeat center;
+    background-size: cover; }
+  .image9 {
+    background: url(./assets/image9-1600.jpg) no-repeat center;
+    background-size: cover; }
+  .image10 {
+    background: url(./assets/image10-1600.jpg) no-repeat center;
+    background-size: cover; } }
 
 h1, h2 {
   font-family: "Josefin Sans", sans-serif;
@@ -731,6 +761,39 @@ footer {
 .flexbox .cell:last-child {
   text-align: left;
   margin-left: 5px; }
+
+.flexbox-gallery {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  width: 100%; }
+
+.flexbox-gallery .cell {
+  flex: 1; }
+
+.flexbox-gallery .cell img {
+  width: 100%; }
+
+@media (max-width: 767px) {
+  .flexbox-gallery {
+    flex-direction: column;
+    height: 1200px; } }
+
+@media (max-width: 543px) {
+  .flexbox-gallery {
+    height: 800px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .flexbox-gallery .cell {
+    height: 200px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .flexbox-gallery .cell {
+    height: 300px; } }
+
+@media (min-width: 1200px) {
+  .flexbox-gallery .cell {
+    height: 400px; } }
 
 /*! Flickity v2.0.9
 http://flickity.metafizzy.co
