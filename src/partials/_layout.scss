@@ -33,55 +33,27 @@ footer {
 
 // extra small devices
 @media (max-width: 543px) {
-    .jarallax.image1 {
-        background-image: url(./assets/image1-543.jpg)
-    }
-    .jarallax.image2 {
-        background-image: url(./assets/image2-543.jpg)
-    }
-    .jarallax.image3 {
-        background-image: url(./assets/image3-543.jpg)
-    }
-    .jarallax.image4 {
-        background-image: url(./assets/image4-543.jpg)
-    }
-    .jarallax.image5 {
-        background-image: url(./assets/image5-543.jpg)
+    @for $i from 1 through 10 {
+        .jarallax.image-#{$i} {
+            background-image: url(./assets/image#{$i}-543.jpg);
+        }
     }
 }
+
 // small and medium devices
 @media (min-width: 544px) and (max-width: 991px) {
-    .jarallax.image1 {
-        background-image: url(./assets/image1-991.jpg)
-    }
-    .jarallax.image2 {
-        background-image: url(./assets/image2-991.jpg)
-    }
-    .jarallax.image3 {
-        background-image: url(./assets/image3-991.jpg)
-    }
-    .jarallax.image4 {
-        background-image: url(./assets/image4-991.jpg)
-    }
-    .jarallax.image5 {
-        background-image: url(./assets/image5-991.jpg)
+    @for $i from 1 through 10 {
+        .jarallax.image-#{$i} {
+            background-image: url(./assets/image#{$i}-991.jpg);
+        }
     }
 }
+
 // large and extra large devices
 @media (min-width: 992px) {
-    .jarallax.image1 {
-        background-image: url(./assets/image1-1600.jpg)
-    }
-    .jarallax.image2 {
-        background-image: url(./assets/image2-1600.jpg)
-    }
-    .jarallax.image3 {
-        background-image: url(./assets/image3-1600.jpg)
-    }
-    .jarallax.image4 {
-        background-image: url(./assets/image4-1600.jpg)
-    }
-    .jarallax.image5 {
-        background-image: url(./assets/image5-1600.jpg)
+    @for $i from 1 through 10 {
+        .jarallax.image-#{$i} {
+            background-image: url(./assets/image#{$i}-1600.jpg);
+        }
     }
 }

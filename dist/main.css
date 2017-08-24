@@ -421,40 +421,70 @@ footer {
   background-position: 50% 50%; }
 
 @media (max-width: 543px) {
-  .jarallax.image1 {
+  .jarallax.image-1 {
     background-image: url(./assets/image1-543.jpg); }
-  .jarallax.image2 {
+  .jarallax.image-2 {
     background-image: url(./assets/image2-543.jpg); }
-  .jarallax.image3 {
+  .jarallax.image-3 {
     background-image: url(./assets/image3-543.jpg); }
-  .jarallax.image4 {
+  .jarallax.image-4 {
     background-image: url(./assets/image4-543.jpg); }
-  .jarallax.image5 {
-    background-image: url(./assets/image5-543.jpg); } }
+  .jarallax.image-5 {
+    background-image: url(./assets/image5-543.jpg); }
+  .jarallax.image-6 {
+    background-image: url(./assets/image6-543.jpg); }
+  .jarallax.image-7 {
+    background-image: url(./assets/image7-543.jpg); }
+  .jarallax.image-8 {
+    background-image: url(./assets/image8-543.jpg); }
+  .jarallax.image-9 {
+    background-image: url(./assets/image9-543.jpg); }
+  .jarallax.image-10 {
+    background-image: url(./assets/image10-543.jpg); } }
 
 @media (min-width: 544px) and (max-width: 991px) {
-  .jarallax.image1 {
+  .jarallax.image-1 {
     background-image: url(./assets/image1-991.jpg); }
-  .jarallax.image2 {
+  .jarallax.image-2 {
     background-image: url(./assets/image2-991.jpg); }
-  .jarallax.image3 {
+  .jarallax.image-3 {
     background-image: url(./assets/image3-991.jpg); }
-  .jarallax.image4 {
+  .jarallax.image-4 {
     background-image: url(./assets/image4-991.jpg); }
-  .jarallax.image5 {
-    background-image: url(./assets/image5-991.jpg); } }
+  .jarallax.image-5 {
+    background-image: url(./assets/image5-991.jpg); }
+  .jarallax.image-6 {
+    background-image: url(./assets/image6-991.jpg); }
+  .jarallax.image-7 {
+    background-image: url(./assets/image7-991.jpg); }
+  .jarallax.image-8 {
+    background-image: url(./assets/image8-991.jpg); }
+  .jarallax.image-9 {
+    background-image: url(./assets/image9-991.jpg); }
+  .jarallax.image-10 {
+    background-image: url(./assets/image10-991.jpg); } }
 
 @media (min-width: 992px) {
-  .jarallax.image1 {
+  .jarallax.image-1 {
     background-image: url(./assets/image1-1600.jpg); }
-  .jarallax.image2 {
+  .jarallax.image-2 {
     background-image: url(./assets/image2-1600.jpg); }
-  .jarallax.image3 {
+  .jarallax.image-3 {
     background-image: url(./assets/image3-1600.jpg); }
-  .jarallax.image4 {
+  .jarallax.image-4 {
     background-image: url(./assets/image4-1600.jpg); }
-  .jarallax.image5 {
-    background-image: url(./assets/image5-1600.jpg); } }
+  .jarallax.image-5 {
+    background-image: url(./assets/image5-1600.jpg); }
+  .jarallax.image-6 {
+    background-image: url(./assets/image6-1600.jpg); }
+  .jarallax.image-7 {
+    background-image: url(./assets/image7-1600.jpg); }
+  .jarallax.image-8 {
+    background-image: url(./assets/image8-1600.jpg); }
+  .jarallax.image-9 {
+    background-image: url(./assets/image9-1600.jpg); }
+  .jarallax.image-10 {
+    background-image: url(./assets/image10-1600.jpg); } }
 
 h1, h2 {
   font-family: "Josefin Sans", sans-serif;
