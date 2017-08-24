@@ -74,7 +74,7 @@ gulp.task('responsive-images', () => {
 });
 
 gulp.task('copy-images', () => {
-  return gulp.src('src/assets/**/*.+(svg)')
+  return gulp.src('src/assets/**/*.+(svg|ico)')
     .pipe(gulp.dest('dist/assets'))
 });
 

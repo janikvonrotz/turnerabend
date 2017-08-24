@@ -34,7 +34,7 @@ footer {
 // extra small devices
 @media (max-width: 543px) {
     @for $i from 1 through 10 {
-        .jarallax.image-#{$i} {
+        .jarallax.image#{$i} {
             background-image: url(./assets/image#{$i}-543.jpg);
         }
     }
@@ -43,7 +43,7 @@ footer {
 // small and medium devices
 @media (min-width: 544px) and (max-width: 991px) {
     @for $i from 1 through 10 {
-        .jarallax.image-#{$i} {
+        .jarallax.image#{$i} {
             background-image: url(./assets/image#{$i}-991.jpg);
         }
     }
@@ -52,7 +52,7 @@ footer {
 // large and extra large devices
 @media (min-width: 992px) {
     @for $i from 1 through 10 {
-        .jarallax.image-#{$i} {
+        .jarallax.image#{$i} {
             background-image: url(./assets/image#{$i}-1600.jpg);
         }
     }

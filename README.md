@@ -32,12 +32,12 @@ Or run the dev server:
 [ ] Create static Image Gallery with flexbox  
 [ ] Update content  
 [ ] Add favicon  
-[ ] Update form mail  
 [ ] Gulp cache responsive images 
 [ ] Create sponsoring section  
 [ ] Underline links on hover with animation  
 [ ] Increase size of active navigation  
 [ ] Uglify js and css  
+[x] Update form mail  
 [x] Decrease image size with gulp  
 [x] Sponsoring slider  
 [x] Update layout  
