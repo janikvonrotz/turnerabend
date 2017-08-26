@@ -560,7 +560,7 @@ mark {
   background-color: #000; }
 
 nav a {
-  font-size: 15px;
+  font-size: 17px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
@@ -675,6 +675,15 @@ body > header {
 nav {
   position: relative; }
 
+nav::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 3em;
+  background-image: linear-gradient(90deg, transparent, #000); }
+
 nav ul {
   display: flex;
   overflow-x: auto;
@@ -684,7 +693,9 @@ nav ul {
 
 nav li {
   display: inline-block;
-  padding: 1rem;
+  padding: 1.5em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
   float: left; }
 
 nav li:nth-child(3n + 1) {
