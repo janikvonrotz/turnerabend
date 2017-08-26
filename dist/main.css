@@ -622,6 +622,9 @@ section article, nav {
   margin-right: auto;
   max-width: 800px; }
 
+img {
+  width: 100%; }
+
 img.logo {
   max-width: 500px;
   margin-top: 70px;
@@ -782,29 +785,9 @@ footer {
 .flexbox-gallery .cell {
   flex: 1; }
 
-.flexbox-gallery .cell img {
-  width: 100%; }
-
 @media (max-width: 767px) {
   .flexbox-gallery {
-    flex-direction: column;
-    height: 1200px; } }
-
-@media (max-width: 543px) {
-  .flexbox-gallery {
-    height: 800px; } }
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .flexbox-gallery .cell {
-    height: 200px; } }
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  .flexbox-gallery .cell {
-    height: 300px; } }
-
-@media (min-width: 1200px) {
-  .flexbox-gallery .cell {
-    height: 400px; } }
+    flex-direction: column; } }
 
 /*! Flickity v2.0.9
 http://flickity.metafizzy.co

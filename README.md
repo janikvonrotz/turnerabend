@@ -31,12 +31,15 @@ Or run the dev server:
 
 [ ] Update favicon from svg logo
 [ ] Enable ticket frog  
-[ ] Update static Image Gallery with flexbox  
-[ ] Update content  
+[ ] Update pictures, sponsoring content (resize sponsor images)
 [ ] Gulp cache responsive images 
-[ ] Create sponsoring section  
-[ ] Increase size of navigation  
 [ ] Uglify js and css  
+[ ] Fix image enlargement bug in gulp build
+[x] Google Analytics  
+[x] Update static Image Gallery with flexbox  
+[x] Create sponsoring section  
+[x] Increase size of navigation  
+[x] Add nav mobile shadow
 [x] Add favicon  
 [x] Update form mail  
 [x] Decrease image size with gulp  
