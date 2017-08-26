@@ -625,6 +625,9 @@ section article, nav {
 img {
   width: 100%; }
 
+img.map {
+  max-width: 800px; }
+
 img.logo {
   max-width: 500px;
   margin-top: 70px;

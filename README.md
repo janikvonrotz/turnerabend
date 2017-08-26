@@ -34,7 +34,7 @@ Or run the dev server:
 [ ] Update pictures, sponsoring content (resize sponsor images)
 [ ] Gulp cache responsive images 
 [ ] Uglify js and css  
-[ ] Fix image enlargement bug in gulp build
+[ ] Fix image enlargement bug in gulp build or use https://github.com/dcgauld/gulp-responsive-images
 [x] Google Analytics  
 [x] Update static Image Gallery with flexbox  
 [x] Create sponsoring section  
