@@ -69,6 +69,8 @@ gulp.task('responsive-images', () => {
         width: 1600,
         rename: {suffix: '-1600'}
       }]
+    }, {
+      errorOnEnlargement: false,
     }))
     .pipe(gulp.dest('dist/assets'))
 })
