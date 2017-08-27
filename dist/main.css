@@ -593,15 +593,15 @@ a.active, a:hover {
 
 @media (max-width: 767px) {
   h1, h2 {
-    font-size: 35px; }
+    font-size: 30px; }
   h2 {
-    font-size: 22px; }
+    font-size: 18px; }
   p, span, article li, form label, .formattedtext, small, strong, mark, form textarea, form input {
     font-size: 15px; }
   small {
     font-size: 13px; }
   .button {
-    font-size: 18px; } }
+    font-size: 16px; } }
 
 * {
   margin: 0;
