@@ -1,10 +1,10 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var browserSync = require('browser-sync').create();
-var useref = require('gulp-useref');
-var rename = require('gulp-rename');
-var merge = require('merge-stream');
-var cache = require('gulp-cache');
+var gulp = require('gulp')
+var sass = require('gulp-sass')
+var browserSync = require('browser-sync').create()
+var useref = require('gulp-useref')
+var rename = require('gulp-rename')
+var merge = require('merge-stream')
+var cache = require('gulp-cache')
 var responsive = require('gulp-responsive')
 
 // run browser sync in current directory
@@ -24,7 +24,7 @@ gulp.task('useref', () => {
     .pipe(browserSync.reload({
       stream: true
     }))
-});
+})
 
 // transpile sass files
 gulp.task('sass', () => {
@@ -34,7 +34,7 @@ gulp.task('sass', () => {
     .pipe(browserSync.reload({
       stream: true
     }))
-});
+})
 
 // copy css
 gulp.task('copy-css', () => {
@@ -71,12 +71,12 @@ gulp.task('responsive-images', () => {
       }]
     }))
     .pipe(gulp.dest('dist/assets'))
-});
+})
 
 gulp.task('copy-images', () => {
   return gulp.src('src/assets/**/*.+(svg|ico)')
     .pipe(gulp.dest('dist/assets'))
-});
+})
 
 // buil gulp project
 gulp.task('build', ['copy-css', 'responsive-images', 'copy-images', 'sass', 'useref'], () => {
