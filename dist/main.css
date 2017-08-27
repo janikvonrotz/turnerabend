@@ -628,6 +628,9 @@ img {
 img.map {
   max-width: 800px; }
 
+.flexbox-gallery img {
+  max-width: 400px; }
+
 img.logo {
   max-width: 500px;
   margin-top: 70px;
@@ -789,8 +792,19 @@ footer {
   width: 100%; }
 
 .flexbox-gallery .cell {
-  flex: 1; }
+  flex: 1;
+  display: flex;
+  align-items: center; }
+
+.flexbox-gallery .cell:not(:last-child) {
+  margin-right: 10px; }
 
 @media (max-width: 767px) {
   .flexbox-gallery {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .flexbox-gallery .cell {
+    display: block;
+    align-items: center; }
+  .flexbox-gallery .cell:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 10px; } }
