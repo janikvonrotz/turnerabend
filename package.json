@@ -14,7 +14,6 @@
     "browser-sync": "^2.18.13"
   },
   "dependencies": {
-    "flickity": "^2.0.9",
     "gulp": "^3.9.1",
     "gulp-cache": "^0.4.6",
     "gulp-rename": "^1.2.2",
