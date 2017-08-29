@@ -29,6 +29,7 @@ Or run the dev server:
 
 ## Todo
 
+[ ] Add screenshot and publish on Github
 [ ] Update favicon from svg logo  
 [ ] Gulp cache responsive images  
 [ ] Uglify js and css  
