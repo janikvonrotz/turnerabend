@@ -1,7 +1,7 @@
 # Turnerabend Page
 
 Repository: [GitLab - turnerabend](https://gitlab.com/janikvonrotz/turnerabend)  
-Staging: [GitLab pages - turnerabend](https://janikvonrotz.gitlab.io/turnerabend)  
+Link: [Turnerabend.ch](http://turnerabend.ch)  
 [![pipeline status](https://gitlab.com/janikvonrotz/turnerabend/badges/master/pipeline.svg)](https://gitlab.com/janikvonrotz/turnerabend/commits/master)
 
 ## Install
@@ -29,12 +29,12 @@ Or run the dev server:
 
 ## Todo
 
-[ ] Update favicon from svg logo
-[ ] Enable ticket frog  
-[ ] Update pictures, sponsoring content (resize sponsor images)
-[ ] Gulp cache responsive images 
+[ ] Update favicon from svg logo  
+[ ] Gulp cache responsive images  
 [ ] Uglify js and css  
-[ ] Fix image enlargement bug in gulp build
+[x] Fix image enlargement bug in gulp build  
+[x] Enable ticket frog  
+[x] Update pictures, sponsoring content (resize sponsor images)  
 [x] Google Analytics  
 [x] Update static Image Gallery with flexbox  
 [x] Create sponsoring section  
