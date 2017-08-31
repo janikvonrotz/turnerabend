@@ -27,12 +27,17 @@ Or run the dev server:
 * Configurable theme
 * Responsive images
 
+## Screenrecord
+
+![](/src/assets/screenrecord.gif)
+
 ## Todo
 
 [ ] Add screenshot and publish on Github
 [ ] Update favicon from svg logo  
 [ ] Gulp cache responsive images  
 [ ] Uglify js and css  
+[x] Fix Google Analytics or use Piwik
 [x] Fix image enlargement bug in gulp build  
 [x] Enable ticket frog  
 [x] Update pictures, sponsoring content (resize sponsor images)  

@@ -56,7 +56,7 @@ gulp.task('copy-css', () => {
 
 // copy images
 gulp.task('responsive-images', () => {
-  return gulp.src('src/assets/**/*.+(png|jpg|gif)')
+  return gulp.src('src/assets/**/*.+(png|jpg)')
     .pipe(responsive({
       '*.+(jpg|png|gif)': [{
         width: 543,
