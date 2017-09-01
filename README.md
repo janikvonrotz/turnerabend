@@ -33,11 +33,11 @@ Or run the dev server:
 
 ## Todo
 
-[ ] Add screenshot and publish on Github
 [ ] Update favicon from svg logo  
 [ ] Gulp cache responsive images  
 [ ] Uglify js and css  
-[x] Fix Google Analytics or use Piwik
+[x] Add screenshot and publish on Github  
+[x] Fix Google Analytics or use Piwik  
 [x] Fix image enlargement bug in gulp build  
 [x] Enable ticket frog  
 [x] Update pictures, sponsoring content (resize sponsor images)  
@@ -45,7 +45,7 @@ Or run the dev server:
 [x] Update static Image Gallery with flexbox  
 [x] Create sponsoring section  
 [x] Increase size of navigation  
-[x] Add nav mobile shadow
+[x] Add nav mobile shadow  
 [x] Add favicon  
 [x] Update form mail  
 [x] Decrease image size with gulp  
@@ -53,7 +53,7 @@ Or run the dev server:
 [x] Update layout  
 [x] Update new font  
 [x] Optimize images with gulp  
-[x] Import css without path
+[x] Import css without path  
 [x] Find solution to send mail from contact form  
 [x] Increase line-height  
 [x] Add logo  
