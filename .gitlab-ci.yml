@@ -1,16 +1,11 @@
-image: node:6.10.0
-
+# This file is a template, and might need editing before it works on your project.
+# Full project: https://gitlab.com/pages/plain-html
 pages:
   stage: deploy
   script:
-  - npm install
-  - ./node_modules/.bin/gulp build
   - mv dist public
   artifacts:
     paths:
     - public
-  cache:
-    paths:
-      - node_modules
   only:
   - master
