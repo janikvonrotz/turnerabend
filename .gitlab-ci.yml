@@ -4,7 +4,7 @@ pages:
   stage: deploy
   script:
   - npm install
-  - gulp build
+  - ./node_modules/.bin/gulp build
   - mv dist public
   artifacts:
     paths:
