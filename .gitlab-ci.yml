@@ -3,6 +3,8 @@
 pages:
   stage: deploy
   script:
+  - npm install
+  - gulp build
   - mv dist public
   artifacts:
     paths:
